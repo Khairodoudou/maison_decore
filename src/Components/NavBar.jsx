@@ -43,7 +43,7 @@ export default function NavBar() {
             </div>
 
             <div className="navbar-end">
-                <a className="btn px-6 text-white">Sign up</a>
+                <a className="btn px-6 text-dark ">Sign up</a>
             </div>
         </div>
     );
