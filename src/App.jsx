@@ -4,6 +4,7 @@ import Services from "./Services";
 import Section from "./Section";
 import Section2 from "./Section2";
 import About from "./About";
+import Footer from "./Components/Footer";
 
 
 import {Element} from "react-scroll";
@@ -18,7 +19,7 @@ export default function App() {
         <Header />
       </Element>
 
-      <Element name="Services">
+      <Element name="services">
         <Services/>
       </Element>
 
@@ -29,6 +30,8 @@ export default function App() {
       <Element name="about">
         <About/>
       </Element>
+
+      <Footer/>
     </div>
   )
 }
