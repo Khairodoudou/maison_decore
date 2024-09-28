@@ -28,7 +28,7 @@ export default function Services() {
             <nav className="grid gap-4 mt-5 md:mt-10" aria-label="Tabs" role="tablist" aria-orientation="vertical">
               <button
                 type="button"
-                className={`hs-tab-active:bg-black hs-tab-active:shadow-md text-start p-4 md:p-5 rounded-xl ${activeTab === 'advanced-tools' ? 'bg-black shadow-md' : 'hover:bg-gray-200 dark:hover:bg-neutral-700'}`}
+                className={`hs-tab-active:bg-black hs-tab-active:shadow-md text-start p-4 md:p-5 rounded-xl ${activeTab === 'advanced-tools' ? 'bg-slate-400 shadow-md' : 'hover:bg-gray-200 dark:hover:bg-white'}`}
                 onClick={() => setActiveTab('advanced-tools')}
                 aria-selected={activeTab === 'advanced-tools'}
                 aria-label="Lighting Design"
@@ -96,7 +96,7 @@ export default function Services() {
 
               <button
                 type="button"
-                className={`hs-tab-active:bg-black hs-tab-active:shadow-md text-start p-4 md:p-5 rounded-xl ${activeTab === 'powerful-features' ? 'bg-black shadow-md' : 'hover:bg-gray-200 dark:hover:bg-neutral-700'}`}
+                className={`hs-tab-active:bg-black hs-tab-active:shadow-md text-start p-4 md:p-5 rounded-xl ${activeTab === 'powerful-features' ? 'bg-slate-400 shadow-md' : 'hover:bg-gray-200 dark:hover:bg-white'}`}
                 onClick={() => setActiveTab('powerful-features')}
                 aria-selected={activeTab === 'powerful-features'}
                 aria-label="Outdoor Design"
