@@ -75,7 +75,7 @@ export default function Services() {
 
               <button
                 type="button"
-                className={`hs-tab-active:bg-black hs-tab-active:shadow-md text-start p-4 md:p-5 rounded-xl ${activeTab === 'smart-dashboards' ? 'bg-black shadow-md' : 'hover:bg-gray-200 dark:hover:bg-neutral-700'}`}
+                className={`hs-tab-active:bg-black hs-tab-active:shadow-md text-start p-4 md:p-5 rounded-xl ${activeTab === 'smart-dashboards' ? 'bg-slate-600 shadow-md' : 'hover:bg-gray-200 dark:hover:bg-neutral-700'}`}
                 onClick={() => setActiveTab('smart-dashboards')}
                 aria-selected={activeTab === 'smart-dashboards'}
                 aria-label="Interior Design"
