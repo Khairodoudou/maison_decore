@@ -22,7 +22,7 @@ export default function NavBar() {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 ">
+                        className="menu menu-sm dropdown-content rounded-box z-30 mt-3 w-52 p-2 ">
                         {/* Add correct 'to' values that match section IDs */}
                         <li><Link to="header" smooth={true} duration={500} className="text-black">Home</Link></li>
                         <li><Link to="services" smooth={true} duration={500} className="text-black">Services</Link></li>

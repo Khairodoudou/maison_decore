@@ -42,7 +42,7 @@ export default function Header() {
 
   return (
     <div>
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 z-10  body-font">
         <div className="container mx-auto flex px-5 py-3 pt-12 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="mb-5 pb-10">
@@ -68,7 +68,7 @@ export default function Header() {
             </div>
 
             <div className="container mx-auto pt-10">
-              <div className="grid grid-cols-3 sm:text-start sm:pr-5 md:text-center mx-10 ">
+              <div className="grid grid-cols-3 gap-x-4 sm:text-start sm:pr-5 md:text-center mx-10 ">
                 <div className="p-4">
                   <h2 className="title-font font-medium text-3xl text-gray-900">
                     {projects}+
